@@ -1,0 +1,15 @@
+
+<div class="painel" >
+<mat-accordion multi="true">
+
+    <mat-expansion-panel *ngFor="let post of posts ; let i = index" >
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{post.nome}}                         
+            </mat-panel-title>
+           
+        </mat-expansion-panel-header>
+        {{post.conteudo}}
+    </mat-expansion-panel>
+</mat-accordion>
+</div>

@@ -1,0 +1,10 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 50vh;
+   margin: auto;
+   margin-top: 10%;
+
+}

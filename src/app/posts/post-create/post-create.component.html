@@ -1,0 +1,19 @@
+
+
+
+    <mat-card class="principal">
+
+        <mat-form-field>
+            <mat-label>Nome do Pet</mat-label>
+            <input matInput #nome>
+        </mat-form-field>
+        <mat-form-field >
+            
+            <textarea matInput color="primary" cols="30" rows="10"  #newPost></textarea>
+            <hr>
+            
+        
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="adicionarPost(nome,newPost)">Adicionar</button>
+    </mat-card>
+
